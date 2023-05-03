@@ -1,0 +1,168 @@
+/* given to all attributes */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* html tag properties */
+html{
+    scroll-behavior: smoooth;
+}
+/* root properties */
+/* :root{
+    --navbar-height: 80px;
+} */
+
+body { 
+    
+    background-image: url('./Images/signup bg.png'); 
+     
+    
+    
+    height: 100vh;
+    /* width: 100vh; */
+
+    background-size: cover; 
+    background-position: center center;
+    
+}
+
+/* ___________________________________________________NAVBAR PROPERTIES__________________________________________________________________ */
+
+
+
+#logo{
+    margin: 14px 146.58px;
+    
+}
+
+#logo img{
+    height: 45.01px;
+    margin: 3px 6px;
+}
+
+
+
+
+/* ___________________________________________________SECTION PROPERTIES__________________________________________________________________ */
+
+.signinbox{
+    margin-top: 19vh;
+    width: 296px;
+    height: 280px;
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    
+    margin-left: 28vh;
+    color: white;
+
+}
+
+.boxx1{
+    margin-top: 20px;
+    width: 854px;
+    height: 50px;
+    
+}
+
+.boxx2{
+    margin-top: 20px;
+    width: 854px;
+    height: 50px;
+    
+}
+
+label .pass1{
+    margin-top: 40px;
+}
+
+.email1{
+    margin-top: 100px;
+}
+
+.but1{
+    
+        font-family: 'Inter', sans-serif;
+        font-size: 1.3rem;
+        background-color: #40BDFC;
+        border: none;
+        color: black;
+        padding: 15px 59px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+        
+        
+        /* margin-left: 110.5vh;
+        margin-top: 55vh; */
+        
+       
+        
+}
+    
+
+        
+      
+      
+.but1:hover {
+        background-color: black; /* Green */
+        color: rgb(255, 255, 255);
+}
+
+.linkk{
+    color: #40BDFC;
+    text-decoration: none;
+    font-weight: bolder;
+}
+ 
+
+.but2{
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    background-color: transparent;
+    
+    border: 2px solid #40BDFC;
+    color: white;
+    padding: 15px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    margin-left: 18px;
+    
+    
+    
+    /* margin-left: 110.5vh;
+    margin-top: 55vh; */
+    
+   
+    
+}
+
+
+    
+  
+  
+.but2:hover {
+    background-color: rgb(255, 255, 255); /* Green */
+    color: rgb(0, 0, 0);
+}
+
+.linkk{
+    color: #40BDFC;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.buttot{
+    display: flex;
+    
+}
+
+.select1{
+    font-size: 1.3rem;
+    margin-left: 25px;
+    padding: 10px 25px;
+}

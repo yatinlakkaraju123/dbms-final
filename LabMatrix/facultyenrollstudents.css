@@ -1,0 +1,202 @@
+/* given to all attributes */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* html tag properties */
+html{
+    scroll-behavior: smoooth;
+}
+/* root properties */
+/* :root{
+    --navbar-height: 80px;
+} */
+
+body { 
+    
+    background-image: url('faceq bg.png'); 
+     
+    
+    
+    height: 100vh;
+    /* width: 100vh; */
+
+    background-size: cover; 
+    background-position: center center;
+    
+}
+
+/* ___________________________________________________NAVBAR PROPERTIES__________________________________________________________________ */
+
+
+
+#navbar{
+    display: flex;
+    
+    /* align-items: center; */
+    position: sticky; /* to make it remain at the top of the website */
+    /* top: 0px; */
+    justify-content: space-between; 
+    
+}
+
+
+
+#logo{
+    margin-top: 14px ;
+    margin-left: 146.58px ;
+    margin-bottom: 50px;
+    
+}
+
+#logo img{
+    height: 45.01px;
+    margin: 3px 6px;
+}
+
+#navbar form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 1.3rem;
+    margin-right: 146.58px;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+
+#navbar form li a{
+    color: white;
+    padding: 15px 32px;
+    border-radius: none;
+    text-decoration: none;
+}
+
+#navbar form li a:hover{
+     
+
+     background-color: #AC80FF; /* Green */
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* ___________________________________________________SECTION PROPERTIES__________________________________________________________________ */
+
+.loginbox{
+    margin-top: 36vh;
+    width: 350px;
+    height: 280px;
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    
+    margin-left: 11vh;
+    color: white;
+    
+}
+
+.boxx1{
+    margin-top: 20px;
+    width: 854px;
+    height: 50px;
+    
+}
+
+.boxx2{
+    margin-top: 20px;
+    width: 854px;
+    height: 50px;
+    
+}
+
+label .pass1{
+    margin-top: 40px;
+}
+
+.email1{
+    margin-top: 100px;
+}
+
+.but1{
+    
+        font-family: 'Inter', sans-serif;
+        font-size: 1.3rem;
+        background-color: #40BDFC;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+        
+        
+        /* margin-left: 110.5vh;
+        margin-top: 55vh; */
+        
+       
+        
+}
+    
+
+        
+      
+      
+.but1:hover {
+        background-color: black; /* Green */
+        color: rgb(255, 255, 255);
+}
+
+.linkk{
+    color: #40BDFC;
+    text-decoration: none;
+    font-weight: bolder;
+}
+ /* ___________________________________________________TABLE PROPERTIES__________________________________________________________________ */
+
+ table, td, th {  
+    border: 1px solid #ffffff;
+    text-align: left;
+
+  }
+  
+  table {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    border-collapse: collapse;
+    width: 80%;
+    color: white;
+    margin-left: 120px;
+    margin-top: 25px;
+    
+   
+
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
+  .studet{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    color: #40BDFC;
+    margin-left: 120px;
+    
+
+    display: inline;
+    font-weight: bolder;
+
+  }
+
+
+  input[type='checkbox'] {
+    
+    width:25px;
+    height:25px;
+    background:white;
+    
+    border:1px solid #000000;
+}

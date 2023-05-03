@@ -1,0 +1,123 @@
+/* given to all attributes */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* html tag properties */
+html{
+    scroll-behavior: smoooth;
+}
+/* root properties */
+/* :root{
+    --navbar-height: 80px;
+} */
+
+body { 
+    
+    background-image: url('lp bg ffinal.png'); 
+     
+    
+    
+    height: 100vh;
+    /* width: 100vh; */
+
+    background-size: cover; 
+    background-position: center center;
+    
+}
+
+/* ___________________________________________________NAVBAR PROPERTIES__________________________________________________________________ */
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky; /* to make it remain at the top of the website */
+    top: 0px;
+    justify-content: space-between;
+}
+
+#navbar ::before{
+    content: "";
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.05;
+}
+
+#logo{
+    margin: 14px 146.58px;
+    
+}
+
+#logo img{
+    height: 45.01px;
+    margin: 3px 6px;
+}
+
+#navbar form{
+    
+    margin-right: 146.58px;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+
+#navbar form li{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 1.3rem;
+    
+    
+}
+
+
+#navbar form li a{
+    color: white;
+    padding: 15px 32px;
+    border-radius: none;
+    text-decoration: none;
+}
+
+#navbar form li a:hover{
+     
+
+     background-color: #AC80FF; /* Green */
+    color: rgb(255, 255, 255);
+}
+
+/* ___________________________________________________HOME PROPERTIES__________________________________________________________________ */
+
+.loginsignup{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+        
+    
+    
+    margin-left: 110.5vh;
+    margin-top: 55vh;
+    
+   
+    
+}
+
+.loginsignup {
+    transition-duration: 0.4s;
+  }
+  
+  .loginsignup:hover {
+    background-color: #AC80FF; /* Green */
+    color: rgb(255, 255, 255);
+  }

@@ -1,0 +1,118 @@
+/* given to all attributes */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* html tag properties */
+html{
+    scroll-behavior: smoooth;
+}
+/* root properties */
+/* :root{
+    --navbar-height: 80px;
+} */
+
+body { 
+    
+    background-image: url('./Images/loginpage bg.png'); 
+     
+    
+    
+    height: 100vh;
+    /* width: 100vh; */
+
+    background-size: cover; 
+    background-position: center center;
+    
+}
+
+/* ___________________________________________________NAVBAR PROPERTIES__________________________________________________________________ */
+
+
+
+#logo{
+    margin: 14px 146.58px;
+    
+}
+
+#logo img{
+    height: 45.01px;
+    margin: 3px 6px;
+}
+
+
+
+
+/* ___________________________________________________SECTION PROPERTIES__________________________________________________________________ */
+
+.loginbox{
+    margin-top: 30vh;
+    width: 296px;
+    height: 280px;
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    
+    margin-left: 28vh;
+    color: white;
+
+}
+
+.boxx1{
+    margin-top: 20px;
+    width: 854px;
+    height: 50px;
+    
+}
+
+.boxx2{
+    margin-top: 20px;
+    width: 854px;
+    height: 50px;
+    
+}
+
+label .pass1{
+    margin-top: 40px;
+}
+
+.email1{
+    margin-top: 100px;
+}
+
+.but1{
+    
+        font-family: 'Inter', sans-serif;
+        font-size: 1.3rem;
+        background-color: #40BDFC;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+        
+        
+        /* margin-left: 110.5vh;
+        margin-top: 55vh; */
+        
+       
+        
+}
+    
+
+        
+      
+      
+.but1:hover {
+        background-color: black; /* Green */
+        color: rgb(255, 255, 255);
+}
+
+.linkk{
+    color: #40BDFC;
+    text-decoration: none;
+    font-weight: bolder;
+}
+ 
